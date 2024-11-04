@@ -1,0 +1,60 @@
+E:\C#\Secure file manager\bin\Debug\Secure file manager.exe
+E:\C#\Secure file manager\bin\Debug\System.Data.SQLite.dll
+E:\C#\Secure file manager\obj\Debug\Secure file manager.csproj.AssemblyReference.cache
+E:\C#\Secure file manager\obj\Debug\AdminWindow.baml
+E:\C#\Secure file manager\obj\Debug\BlockTimeWindow.baml
+E:\C#\Secure file manager\obj\Debug\LoginWindow.baml
+E:\C#\Secure file manager\obj\Debug\AdminWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\BlockTimeWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\LoginWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\MainWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\RegistrationWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\App.g.cs
+E:\C#\Secure file manager\obj\Debug\Secure file manager_Content.g.cs
+E:\C#\Secure file manager\obj\Debug\Secure file manager_MarkupCompile.cache
+E:\C#\Secure file manager\obj\Debug\Secure file manager_MarkupCompile.lref
+E:\C#\Secure file manager\bin\Debug\x86\sqlite3.dll
+E:\C#\Secure file manager\bin\Debug\x64\sqlite3.dll
+E:\C#\Secure file manager\bin\Debug\Secure file manager.exe.config
+E:\C#\Secure file manager\bin\Debug\Secure file manager.pdb
+E:\C#\Secure file manager\bin\Debug\DatabaseSchemaReader.dll
+E:\C#\Secure file manager\bin\Debug\DataTables-Editor-Server.dll
+E:\C#\Secure file manager\bin\Debug\EntityFramework.dll
+E:\C#\Secure file manager\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\Secure file manager\bin\Debug\Newtonsoft.Json.dll
+E:\C#\Secure file manager\bin\Debug\SkbKontur.DbViewer.dll
+E:\C#\Secure file manager\bin\Debug\System.Data.SQLite.EF6.dll
+E:\C#\Secure file manager\bin\Debug\System.Data.SQLite.Linq.dll
+E:\C#\Secure file manager\bin\Debug\System.Text.Encodings.Web.dll
+E:\C#\Secure file manager\bin\Debug\DatabaseSchemaReader.xml
+E:\C#\Secure file manager\bin\Debug\EntityFramework.xml
+E:\C#\Secure file manager\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\Secure file manager\bin\Debug\Newtonsoft.Json.xml
+E:\C#\Secure file manager\bin\Debug\SkbKontur.DbViewer.pdb
+E:\C#\Secure file manager\bin\Debug\System.Data.SQLite.xml
+E:\C#\Secure file manager\bin\Debug\System.Text.Encodings.Web.xml
+E:\C#\Secure file manager\obj\Debug\UserWindow.baml
+E:\C#\Secure file manager\obj\Debug\UserWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\MainWindow.baml
+E:\C#\Secure file manager\obj\Debug\RegistrationWindow.baml
+E:\C#\Secure file manager\obj\Debug\Secure file manager.g.resources
+E:\C#\Secure file manager\obj\Debug\Secure_file_manager.Properties.Resources.resources
+E:\C#\Secure file manager\obj\Debug\Secure file manager.csproj.GenerateResource.cache
+E:\C#\Secure file manager\obj\Debug\Secure file manager.csproj.CoreCompileInputs.cache
+E:\C#\Secure file manager\obj\Debug\Secure f.4D52FFDA.Up2Date
+E:\C#\Secure file manager\obj\Debug\Secure file manager.exe
+E:\C#\Secure file manager\obj\Debug\Secure file manager.pdb
+E:\C#\Secure file manager\obj\Debug\LobbyWindow.baml
+E:\C#\Secure file manager\obj\Debug\LobbyWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\AcceptFilesWindow.baml
+E:\C#\Secure file manager\obj\Debug\AcceptFilesWindow.g.cs
+E:\C#\Secure file manager\obj\Debug\Shure.baml
+E:\C#\Secure file manager\obj\Debug\Shure.g.cs
+E:\C#\Secure file manager\bin\Debug\xunit.abstractions.dll
+E:\C#\Secure file manager\bin\Debug\xunit.assert.dll
+E:\C#\Secure file manager\bin\Debug\xunit.core.dll
+E:\C#\Secure file manager\bin\Debug\xunit.execution.desktop.dll
+E:\C#\Secure file manager\bin\Debug\xunit.abstractions.xml
+E:\C#\Secure file manager\bin\Debug\xunit.assert.xml
+E:\C#\Secure file manager\bin\Debug\xunit.core.xml
+E:\C#\Secure file manager\bin\Debug\xunit.execution.desktop.xml

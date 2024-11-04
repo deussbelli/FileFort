@@ -1,0 +1,304 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\C#\\Secure file manager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC567E4-4B7F-4F3C-92F0-7706DACCBF12}|..\\TestProject\\TestProject.csproj|e:\\c#\\testproject\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0FC567E4-4B7F-4F3C-92F0-7706DACCBF12}|..\\TestProject\\TestProject.csproj|e:\\c#\\testproject\\testproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:userwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\RegistrationWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:RegistrationWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\acceptfileswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:acceptfileswindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\databaseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:databaseuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:registrationwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\shure.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:shure.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\shure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:shure.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\LobbyWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:LobbyWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\lobbywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:lobbywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\LoginWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:LoginWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\AcceptFilesWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:AcceptFilesWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\LoginWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:LoginWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\AdminWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:AdminWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:userwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|E:\\C#\\Secure file manager\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A1AEDE22-EE53-4634-8413-0A780AAD3CFF}|Secure file manager.csproj|solutionrelative:adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 158,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegistrationWindow.xaml",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\RegistrationWindow.xaml",
+              "RelativeDocumentMoniker": "RegistrationWindow.xaml",
+              "ToolTip": "E:\\C#\\Secure file manager\\RegistrationWindow.xaml",
+              "RelativeToolTip": "RegistrationWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T15:44:55.789Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserWindow.xaml",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\UserWindow.xaml",
+              "RelativeDocumentMoniker": "UserWindow.xaml",
+              "ToolTip": "E:\\C#\\Secure file manager\\UserWindow.xaml",
+              "RelativeToolTip": "UserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T15:36:37.848Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestProject.csproj",
+              "DocumentMoniker": "E:\\C#\\TestProject\\TestProject.csproj",
+              "RelativeDocumentMoniker": "..\\TestProject\\TestProject.csproj",
+              "ToolTip": "E:\\C#\\TestProject\\TestProject.csproj",
+              "RelativeToolTip": "..\\TestProject\\TestProject.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T15:10:12.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "E:\\C#\\TestProject\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\TestProject\\UnitTest1.cs",
+              "ToolTip": "E:\\C#\\TestProject\\UnitTest1.cs",
+              "RelativeToolTip": "..\\TestProject\\UnitTest1.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDcAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T15:07:38.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AcceptFilesWindow.xaml",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\AcceptFilesWindow.xaml",
+              "RelativeDocumentMoniker": "AcceptFilesWindow.xaml",
+              "ToolTip": "E:\\C#\\Secure file manager\\AcceptFilesWindow.xaml",
+              "RelativeToolTip": "AcceptFilesWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T10:26:49.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DatabaseUser.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\DatabaseUser.cs",
+              "RelativeDocumentMoniker": "DatabaseUser.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\DatabaseUser.cs",
+              "RelativeToolTip": "DatabaseUser.cs",
+              "ViewState": "AQIAADUCAAAAAAAAAADwv2ECAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-21T09:32:11.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Shure.xaml",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\Shure.xaml",
+              "RelativeDocumentMoniker": "Shure.xaml",
+              "ToolTip": "E:\\C#\\Secure file manager\\Shure.xaml",
+              "RelativeToolTip": "Shure.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-20T18:02:04.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Shure.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\Shure.xaml.cs",
+              "RelativeDocumentMoniker": "Shure.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\Shure.xaml.cs",
+              "RelativeToolTip": "Shure.xaml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAQwEEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:01:13.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\App.xaml.cs",
+              "RelativeDocumentMoniker": "App.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\App.xaml.cs",
+              "RelativeToolTip": "App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T16:54:55.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\UserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UserWindow.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\UserWindow.xaml.cs",
+              "RelativeToolTip": "UserWindow.xaml.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwCEAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T19:13:43.239Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AdminWindow.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "AdminWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T05:29:59.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LoginWindow.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "LoginWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T18:08:35.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistrationWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\RegistrationWindow.xaml.cs",
+              "RelativeDocumentMoniker": "RegistrationWindow.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\RegistrationWindow.xaml.cs",
+              "RelativeToolTip": "RegistrationWindow.xaml.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAkwM8AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-29T15:31:17.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LobbyWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\LobbyWindow.xaml.cs",
+              "RelativeDocumentMoniker": "LobbyWindow.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\LobbyWindow.xaml.cs",
+              "RelativeToolTip": "LobbyWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T16:36:31.661Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminWindow.xaml",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\AdminWindow.xaml",
+              "RelativeDocumentMoniker": "AdminWindow.xaml",
+              "ToolTip": "E:\\C#\\Secure file manager\\AdminWindow.xaml",
+              "RelativeToolTip": "AdminWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-21T08:03:01.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AcceptFilesWindow.xaml.cs",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\AcceptFilesWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AcceptFilesWindow.xaml.cs",
+              "ToolTip": "E:\\C#\\Secure file manager\\AcceptFilesWindow.xaml.cs",
+              "RelativeToolTip": "AcceptFilesWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-18T19:53:43.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LobbyWindow.xaml",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\LobbyWindow.xaml",
+              "RelativeDocumentMoniker": "LobbyWindow.xaml",
+              "ToolTip": "E:\\C#\\Secure file manager\\LobbyWindow.xaml",
+              "RelativeToolTip": "LobbyWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-16T16:59:16.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginWindow.xaml",
+              "DocumentMoniker": "E:\\C#\\Secure file manager\\LoginWindow.xaml",
+              "RelativeDocumentMoniker": "LoginWindow.xaml",
+              "ToolTip": "E:\\C#\\Secure file manager\\LoginWindow.xaml",
+              "RelativeToolTip": "LoginWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-04-04T20:39:12.168Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+user@gmail.com
+user2@gmail.com
+admin@gmail.com
+
+P@sSsWORD_11@1!!P@sSsWORD_11@1!!
+Hello world!
+
+
+
+    <Image Source="/deussdelli.png" 
+Stretch="None" Margin="-282,362,282,13"/>
+
+    <Image Source="E:\C#\Mathematical cryptology\Images\sakura2.png" Stretch="None" Height="NaN" Width="NaN" Margin="117,-172,729,619" RenderTransformOrigin="0.504,0.616"/>
+
+
+E:\C#\Mathematical cryptology\short_text_eng.txt
+E:\C#\Mathematical cryptology\short_text_ukr.txt

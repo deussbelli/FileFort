@@ -1,0 +1,234 @@
+<Window x:Class="UserRegistration.RegistrationWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Secure_file_manager"
+        mc:Ignorable="d"
+        Title="RegistrationWindow" Height="720" Width="820">
+
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+
+
+        <Style x:Key="CustomButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#61CAE6"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"                              
+                                CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="#61CAE6"/>
+                                <Setter Property="Background" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomButtonStyle2" TargetType="Button">
+            <Setter Property="Foreground" Value="#61CAE6"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Background" Value="#61CAE6"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomButtonStyle3" TargetType="Label">
+            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Label">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="TextStyle3" TargetType="Label">
+            <Setter Property="Foreground" Value="#61CAE6"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Label">
+                        <Border Background="{TemplateBinding Background}"
+                        CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+
+        <Style x:Key="CustomTextBoxStyle4" TargetType="TextBox">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" Background="{TemplateBinding Background}"
+                                BorderBrush="Transparent" BorderThickness="1" CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomPasswordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border x:Name="border" Background="{TemplateBinding Background}"
+                        BorderBrush="Transparent" BorderThickness="1" CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+
+    </Window.Resources>
+
+
+    <Canvas>
+
+        <Image Source="E:\C#\Secure file manager\ICONS\OIG2.2oLdPq4yOzb15Q.jpg" Width="1683" Height="1465" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-453" Canvas.Top="-2"/>
+
+        <Image Source="E:\C#\Secure file manager\ICONS\logo.png" Width="200" Height="216" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="325"/>
+        <Rectangle Width="334" Height="450" Fill="#44B5E9F6" Canvas.Left="262" Canvas.Top="204" RadiusX="30" RadiusY="30"
+                 Stroke="#61CAE6" StrokeThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <!-- Name -->
+        <Label Content="Name"  Style="{StaticResource TextStyle3}" Canvas.Left="300" Canvas.Top="230" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        <TextBox x:Name="txtName" Style="{StaticResource CustomTextBoxStyle4}" Canvas.Left="301" Canvas.Top="260" Width="200" Height="29" TextChanged="TxtName_TextChanged" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!-- Last Name -->
+        <Label Content="Last Name"  Style="{StaticResource TextStyle3}" Canvas.Left="300" Canvas.Top="294" Width="84" Height="30" HorizontalAlignment="Center" VerticalAlignment="Center" RenderTransformOrigin="0.487,0.828"/>
+        <TextBox x:Name="txtLastName" Style="{StaticResource CustomTextBoxStyle4}" Canvas.Left="301" Canvas.Top="324" Width="200" Height="29" TextChanged="TxtLastName_TextChanged" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!-- Email -->
+        <Label Content="Email"  Style="{StaticResource TextStyle3}" Canvas.Left="300" Canvas.Top="356" Width="50" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtEmail" Style="{StaticResource CustomTextBoxStyle4}" Canvas.Left="301" Canvas.Top="382" Width="200" Height="30" TextChanged="TxtEmail_TextChanged" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!-- Password -->
+        <Label Content="Password"  Style="{StaticResource TextStyle3}" Canvas.Left="301" Canvas.Top="417" Width="71" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="txtPassword" Style="{StaticResource CustomPasswordBoxStyle}" Canvas.Left="301" Canvas.Top="450" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtVisiblePassword" Style="{StaticResource CustomTextBoxStyle4}"   Canvas.Left="301" Canvas.Top="450" Width="200"  Height="30" Visibility="Collapsed"/>
+
+
+        <ToggleButton x:Name="btnShowPassword"  Background="Transparent" BorderBrush="Transparent" Canvas.Left="513" Canvas.Top="451" Width="32" Height="30" Click="BtnShowPassword_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+        <!-- Confirm Password -->
+        <Label Content="Confirm Password"  Style="{StaticResource TextStyle3}" Canvas.Left="301" Canvas.Top="485" Width="138" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <PasswordBox x:Name="txtConfirmPassword" Style="{StaticResource CustomPasswordBoxStyle}" Canvas.Left="301" Canvas.Top="512" Width="200" Height="30" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtVisibleConfirmPassword" Style="{StaticResource CustomTextBoxStyle4}"  Canvas.Left="301" Canvas.Top="512"  Width="200" Height="30" Visibility="Collapsed"/>
+
+        <ToggleButton x:Name="btnShowConfirmPassword" Background="Transparent" BorderBrush="Transparent" Canvas.Left="513" Canvas.Top="509" Width="32" Height="30" Click="BtnShowConfirmPassword_Click" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+
+        <!-- Register Button -->
+        <Button Content="Register" Style="{StaticResource CustomButtonStyle}"  Canvas.Left="375" Canvas.Top="585" Width="100" Height="30" Click="Register_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <!-- Error Label -->
+        <Label x:Name="lblError" Style="{StaticResource CustomButtonStyle3}" Canvas.Left="274" Canvas.Top="544" Width="309" Height="25" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.232,13.301"/>
+
+        <!-- Login Button -->
+        <Button Content="I already have an account" Style="{StaticResource CustomButtonStyle2}" Canvas.Left="325" Canvas.Top="626" Width="200" Height="18" Click="Login_Click" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Image x:Name="imgPasswordToggle2" Source="E:\C#\Secure file manager\ICONS\show.png" Canvas.Left="519" Canvas.Top="514" Height="23" Width="20" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.227,0.761"/>
+
+        <Image x:Name="imgPasswordToggle" Source="E:\C#\Secure file manager\ICONS\show.png" Canvas.Left="519" Canvas.Top="455" Height="24" Width="20" HorizontalAlignment="Center" VerticalAlignment="Top" RenderTransformOrigin="0.227,0.761"/>
+
+
+
+        <Line X1="10" Y1="10" X2="210" Y2="10" Stroke="White" StrokeThickness="2" Canvas.Left="291" Canvas.Top="281" Height="13" Width="224" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <Line X1="10" Y1="10" X2="210" Y2="10" Stroke="White" StrokeThickness="2" Canvas.Left="291" Canvas.Top="343" Height="13" Width="224" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Line X1="10" Y1="10" X2="210" Y2="10" Stroke="White" StrokeThickness="2" Canvas.Left="291" Canvas.Top="402" Height="13" Width="224" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Line X1="10" Y1="10" X2="210" Y2="10" Stroke="White" StrokeThickness="2" Canvas.Left="291" Canvas.Top="472" Height="13" Width="224" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+        <Line X1="10" Y1="10" X2="210" Y2="10" Stroke="White" StrokeThickness="2" Canvas.Left="291" Canvas.Top="531" Height="13" Width="224" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Canvas>
+</Window>

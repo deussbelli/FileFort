@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "\u041D\u043E\u0432\u044B\u0439 \u043F\u0440\u043E\u0444\u0438\u043B\u044C",
+    "Projects": [
+      {
+        "Name": "Secure file manager.csproj",
+        "Action": "Start"
+      },
+      {
+        "Name": "..\\TestProject_SFM\\TestProject_SFM.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

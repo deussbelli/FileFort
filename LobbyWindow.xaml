@@ -1,0 +1,221 @@
+<Window x:Class="UserRegistration.LobbyWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Lobby"  Height="620" Width="820">
+
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="PasswordBox">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Foreground" Value="Black"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+        </Style>
+        <Style TargetType="Border">
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="BorderBrush" Value="#61CAE6"/>
+            <Setter Property="CornerRadius" Value="0"/>
+        </Style>
+
+        <Style x:Key="CustomButtonStyle" TargetType="Button">
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#61CAE6"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"                              
+                             CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="#61CAE6"/>
+                                <Setter Property="Background" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomButtonStyle2" TargetType="Button">
+            <Setter Property="Foreground" Value="#61CAE6"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                             CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Background" Value="#61CAE6"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomButtonStyle3" TargetType="Label">
+            <Setter Property="Foreground" Value="Red"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Label">
+                        <Border Background="{TemplateBinding Background}"
+                             CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+
+
+                    </ControlTemplate>
+
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="TextStyle3" TargetType="Label">
+            <Setter Property="Foreground" Value="#61CAE6"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="35"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Label">
+                        <Border Background="{TemplateBinding Background}"
+                     CornerRadius="10">
+                            <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+
+
+        <Style x:Key="CustomTextBoxStyle4" TargetType="TextBox">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" Background="{TemplateBinding Background}"
+                             BorderBrush="Transparent" BorderThickness="1" CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomPasswordBoxStyle" TargetType="PasswordBox">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="PasswordBox">
+                        <Border x:Name="border" Background="{TemplateBinding Background}"
+                     BorderBrush="Transparent" BorderThickness="1" CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="CustomTextBoxStyle5" TargetType="TextBox">
+            <Setter Property="Background" Value="#3061CAE6"/>
+            <Setter Property="FontFamily" Value="Berlin Sans FB"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="BorderBrush" Value="#61CAE6"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="TextBox">
+                        <Border x:Name="border" Background="{TemplateBinding Background}"
+                             BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" CornerRadius="5">
+                            <ScrollViewer x:Name="PART_ContentHost"/>
+                        </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsMouseOver" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                            <Trigger Property="IsFocused" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="White"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Window.Resources>
+
+
+    <Canvas>
+        <Image Source="E:\C#\Secure file manager\ICONS\OIG2.2oLdPq4yOzb15Q.jpg" Width="2374" Height="2158" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="-842" Canvas.Top="-275"/>
+
+
+        <Rectangle Width="790" Height="30" Fill="#61CAE6" RadiusX="0" RadiusY="0"
+    Stroke="#61CAE6" StrokeThickness="1" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="30,0,0,0"/>
+
+        <Label Content="EDITING" Style="{StaticResource TextStyle3}" Canvas.Left="323" Canvas.Top="48" Width="174" Height="42" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+        <TextBox x:Name="fileContentTextBox" TextWrapping="Wrap" AcceptsReturn="True" Style="{StaticResource CustomTextBoxStyle5}" Height="415" Canvas.Left="55" Canvas.Top="108" Width="710" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+
+        <Button Content="Save" Style="{StaticResource CustomButtonStyle}" Click="SaveButton_Click" Height="30" Canvas.Left="663" Canvas.Top="541" Width="90"/>
+
+        <Image Source="E:\C#\Secure file manager\ICONS\logo.png" Width="49" Height="30" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+
+        <Line X1="10" Y1="10" X2="210" Y2="10" Stroke="#61CAE6" StrokeThickness="1" Canvas.Left="320" Canvas.Top="83" HorizontalAlignment="Left" Height="13" VerticalAlignment="Center" Width="174"/>
+
+
+    </Canvas>
+</Window>
